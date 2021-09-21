@@ -1,0 +1,109 @@
+html{
+    box-sizing: border-box;
+}
+*, *:before, *:after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#1F2937 ;
+    padding: 10px 150px 40px 150px;
+    
+    
+
+}
+
+.logo{
+    color: #F9FAFB;
+}
+
+a{
+    text-decoration: none;
+    margin: 10px 15px 10px 10px;
+    color: #F9FAFB;
+
+}
+
+.title{
+    font-size: 2.5rem;
+    font-weight: 900;
+
+}
+.banner-section{
+    background-color:#1F2937 ;
+    height: 500px;
+    padding: 10px 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.banner-section *{
+    margin: 10px 0px;
+    color: #F9FAFB;
+
+}
+.left-banner-section{
+    max-width: 400px;
+}
+
+
+#john{
+    width: 400px;
+    height: auto;
+}
+
+.sign-up-btn{
+    background-color: #3C82F6;
+    padding: 15px;
+    border: none;
+    color: #F9FAFB;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 40px;
+}
+.sign-up-btn:hover{
+    background-color: rgb(11, 62, 129);
+}
+
+.info-title{
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.info-container{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.card{
+    width: 175px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card p{
+    margin-top: 10px;
+    text-align: center;
+}
+.card-picture{
+    margin:10px;
+    width: 125px;
+    height: 125px;
+}
+.card-picture img{
+    width: 125px;
+    height: 125px;
+    border-radius: 10px;
+}
+
