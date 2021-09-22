@@ -1,66 +1,65 @@
-html{
+html {
     box-sizing: border-box;
 }
-*, *:before, *:after{
+
+*, *:before, *:after {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-body{
-
+body {
+    display: flex;
+    flex-direction: column;
 }
 
-.header{
+.header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color:#1F2937 ;
+    background-color: #1F2937;
     padding: 10px 150px 40px 150px;
-    
-    
-
 }
 
-.logo{
+.logo {
     color: #F9FAFB;
 }
 
-a{
+a {
     text-decoration: none;
     margin: 10px 15px 10px 10px;
     color: #F9FAFB;
-
 }
 
-.title{
+.title {
     font-size: 2.5rem;
     font-weight: 900;
-
 }
-.banner-section{
-    background-color:#1F2937 ;
+
+.banner-section {
+    background-color: #1F2937;
     height: 500px;
-    padding: 10px 150px;
+    padding: 10px 250px;
     display: flex;
     justify-content: space-between;
 }
-.banner-section *{
+
+.banner-section * {
     margin: 10px 0px;
     color: #F9FAFB;
-
+    padding-right: 10px;
 }
-.left-banner-section{
+
+.left-banner-section {
     max-width: 400px;
 }
 
-
-#john{
+#john {
     width: 400px;
     height: auto;
 }
 
-.sign-up-btn{
+.sign-up-btn {
     background-color: #3C82F6;
     padding: 15px;
     border: none;
@@ -70,40 +69,116 @@ a{
     cursor: pointer;
     margin-top: 40px;
 }
-.sign-up-btn:hover{
+
+.sign-up-btn:hover {
     background-color: rgb(11, 62, 129);
 }
 
-.info-title{
+.info-title {
     font-size: 2.5rem;
     text-align: center;
     margin-top: 30px;
 }
 
-.info-container{
+.info-container {
     display: flex;
     justify-content: center;
     gap: 40px;
 }
-.card{
+
+.card {
     width: 175px;
     height: 200px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.card p{
+
+.card p {
     margin-top: 10px;
     text-align: center;
 }
-.card-picture{
-    margin:10px;
+
+.card-picture {
+    margin: 10px;
     width: 125px;
     height: 125px;
 }
-.card-picture img{
+
+.card-picture img {
     width: 125px;
     height: 125px;
     border-radius: 10px;
 }
 
+.quote-section {
+    background-color: #E5E7EB;
+    height: 150px;
+    margin: 30px 170px;
+    display: flex;
+    justify-content: center;
+}
+
+.quote-section p {
+    margin: 30px 70px;
+}
+
+#quote {
+    text-align: center;
+    margin: 30px 70px;
+    font-style: italic;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.quote-container {
+    width: 750px;
+}
+
+#sansa-atr {
+    text-align: right;
+    font-size: large;
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+
+.cta-container{
+    height: 100px;
+    background-color: #3B82F6;
+    margin: 30px 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    border-radius: 20px;
+
+}
+.cta-des{
+}
+
+.cta-btn{
+background: none;
+border: 1px solid white;
+padding:10px;
+border-radius: 10px;
+
+}
+
+.cta-btn:hover{
+    background: #9fe0ff;
+}
+.cta-container *{
+    color: #FFFFFF;
+}
+
+footer{
+    background-color: #1F2937;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#copyright{
+    color: #aeb1b6;
+}
